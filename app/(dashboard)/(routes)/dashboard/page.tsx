@@ -52,7 +52,7 @@ const DashboardPage = () => {
                     Explore the power of AI
                 </h2>
                 <p className="text-muted-foreground font-light text-sm md:text-lg text-center">
-                    Genius is a platform that allows you to generate images, videos, music, and code using the power of
+                    DMRSmart is a platform that allows you to generate images, videos, music, and code using the power of
                     AI.
                 </p>
 

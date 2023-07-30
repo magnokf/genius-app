@@ -69,7 +69,7 @@ const Sidebar = () => {
                             alt="Logo"
                         />
                     </div>
-                    <h1 className={cn("text-2xl font-bold", montserrat.className)}>Genius</h1>
+                    <h1 className={cn("text-2xl font-bold", montserrat.className)}>DMRSmart</h1>
                 </Link>
                 <div className="space-y-1">
                     {routes.map((route, i) => (
