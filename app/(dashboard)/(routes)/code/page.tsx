@@ -110,7 +110,7 @@ const CodePage = () => {
                         </div>
                     )}
                     {messages.length === 0 && !isLoading && (
-                        <Empty label="No conversation started"/>
+                        <Empty label="Não há conversa iniciada"/>
                     )}
                     <div className="flex flex-col-reverse gap-4">
                         {messages.map((message, index) => (

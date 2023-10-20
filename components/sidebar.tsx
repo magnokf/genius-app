@@ -20,35 +20,35 @@ const routes = [
         color: "text-sky-500",
     },
     {
-        label: "Conversation",
+        label: "Tire suas dúvidas",
         icon: MessageSquare,
         href: "/conversation",
         color: "text-violet-500",
     },
-    {
-        label: "Image Generator",
-        icon: ImageIcon,
-        href: "/image",
-        color: "text-pink-700",
-    },
-    {
-        label: "Video Generator",
-        icon: VideoIcon,
-        href: "/video",
-        color: "text-orange-700",
-    },
-    {
-        label: "Music Generator",
-        icon: Music,
-        href: "/music",
-        color: "text-emerald-500",
-    },
-    {
-        label: "Code Generator",
-        icon: Code,
-        href: "/code",
-        color: "text-green-700",
-    },
+    // {
+    //     label: "Image Generator",
+    //     icon: ImageIcon,
+    //     href: "/image",
+    //     color: "text-pink-700",
+    // },
+    // {
+    //     label: "Video Generator",
+    //     icon: VideoIcon,
+    //     href: "/video",
+    //     color: "text-orange-700",
+    // },
+    // {
+    //     label: "Music Generator",
+    //     icon: Music,
+    //     href: "/music",
+    //     color: "text-emerald-500",
+    // },
+    // {
+    //     label: "Code Generator",
+    //     icon: Code,
+    //     href: "/code",
+    //     color: "text-green-700",
+    // },
     {
         label: "Settings",
         icon: Settings,
@@ -69,7 +69,7 @@ const Sidebar = () => {
                             alt="Logo"
                         />
                     </div>
-                    <h1 className={cn("text-2xl font-bold", montserrat.className)}>DMRSmart</h1>
+                    <h1 className={cn("text-2xl font-bold", montserrat.className)}>Assinfo Genius</h1>
                 </Link>
                 <div className="space-y-1">
                     {routes.map((route, i) => (

@@ -14,7 +14,7 @@ const Loader = () => {
 
             </div>
             <p className="text-muted-foreground text-sm text-center">
-                DMRSmart is thinking...
+               Assinfo Genius está pensando...
             </p>
         </div>
     );
