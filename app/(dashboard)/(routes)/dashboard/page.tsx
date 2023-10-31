@@ -1,52 +1,45 @@
 "use client";
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
-import {
-	ArrowRight,
-	Code,
-	ImageIcon,
-	MessageSquare,
-	Music,
-	VideoIcon,
-} from "lucide-react";
+import { ArrowRight, MessageSquare } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 const tools = [
 	{
-		label: "Conversation",
+		label: "Tire Dúvidas",
 		icon: MessageSquare,
 		color: "text-violet-500",
 		bgColor: "bg-violet-500/10",
 		href: "/conversation",
 	},
-	{
-		label: "Music Generator",
-		icon: Music,
-		color: "text-emerald-500",
-		bgColor: "bg-emerald-500/10",
-		href: "/music",
-	},
-	{
-		label: "Image Generator",
-		icon: ImageIcon,
-		color: "text-pink-700",
-		bgColor: "bg-pink-700/10",
-		href: "/image",
-	},
-	{
-		label: "Video Generator",
-		icon: VideoIcon,
-		color: "text-orange-700",
-		bgColor: "bg-orange-700/10",
-		href: "/video",
-	},
-	{
-		label: "Code Generator",
-		icon: Code,
-		color: "text-green-700",
-		bgColor: "bg-green-700/10",
-		href: "/code",
-	},
+	// {
+	// 	label: "Music Generator",
+	// 	icon: Music,
+	// 	color: "text-emerald-500",
+	// 	bgColor: "bg-emerald-500/10",
+	// 	href: "/music",
+	// },
+	// {
+	// 	label: "Image Generator",
+	// 	icon: ImageIcon,
+	// 	color: "text-pink-700",
+	// 	bgColor: "bg-pink-700/10",
+	// 	href: "/image",
+	// },
+	// {
+	// 	label: "Video Generator",
+	// 	icon: VideoIcon,
+	// 	color: "text-orange-700",
+	// 	bgColor: "bg-orange-700/10",
+	// 	href: "/video",
+	// },
+	// {
+	// 	label: "Code Generator",
+	// 	icon: Code,
+	// 	color: "text-green-700",
+	// 	bgColor: "bg-green-700/10",
+	// 	href: "/code",
+	// },
 ];
 
 const DashboardPage = () => {
@@ -55,7 +48,7 @@ const DashboardPage = () => {
 		<div>
 			<div className="mb-8 space-y-4">
 				<h2 className="text-2xl md:text-4xl font-bold text-center">
-					Explore the power of AI
+					Pergunte ao Assinfo Genius
 				</h2>
 				<p className="text-muted-foreground font-light text-sm md:text-lg text-center">
 					Assinfo Genius é uma plataforma de inteligência artificial de ajuda.

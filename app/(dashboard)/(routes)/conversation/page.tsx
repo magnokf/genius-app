@@ -61,7 +61,7 @@ const ConversationPage = () => {
 		<div>
 			<Heading
 				title="Pergunte e eu te respondo"
-				description="Tire suas dúvidas sobre qualquerr coisa."
+				description="Tire suas dúvidas."
 				icon={MessageSquare}
 				iconColor="text-violet-500"
 				bgColor="bg-violet-100"
@@ -80,7 +80,7 @@ const ConversationPage = () => {
 											<Input
 												className="border-0 focus-visible:ring-0 focus-visible:ring-transparent focus:outline-none"
 												disabled={isLoading}
-												placeholder="Onde posso ...?"
+												placeholder="Faça uma pergunta"
 												{...field}
 											/>
 										</FormControl>
